@@ -12,3 +12,4 @@ How this file works: an idea here is NOT in the plan. For each one the Director 
 - Needs network or a model (blocked for now): web search, currency, translation, grammar help, rephrase, summarising by rewriting, voice tools (left out).
 
 ## Owner's ideas (add below: one line each, your own words)
+- (owner, 2026-10-20, in the Director's words, please correct) Video to Audio; Video Frames (all, every N frames or seconds, chosen frames, a range); calculator with keypad, scientific panel and number keyboards; Games Lab (ChatGPT is on it); KJV Bible and Book of Enoch packs; reading screens and text or images from screens; switching between apps with permission; drafting emails and replying to messages on a schedule or in a chosen way; imitating a person's writing style with consent; talking to other AI tools (AI Flow, Stitch, AI Studio, Whisk, Jules, Disco) with a Tool Knowledge Pack for each; a challenge game where the owner raises the "walls" each round.

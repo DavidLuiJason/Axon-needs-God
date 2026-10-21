@@ -29,3 +29,20 @@ AXON's own rule-based brain can read a DEFINED domain reliably (its tools, the d
 
 ## What the owner can do to help the brain
 Collect real messages you would type to AXON (commands, questions, greetings, mistakes, messy ones, several instructions at once, things you expect it to refuse). They become the corpus for B03B and B04B: real examples beat invented ones. Put them in a plain text file, one per line, and mark the ones you expect AXON NOT to obey.
+
+
+## ADDENDUM 2026-10-20: the mind system jobs (read docs/AXON_VISION.md first; roadmap 7A)
+These wrap the stages above. Each is written only when the job below it is accepted; the Director writes the corpus of right AND wrong cases first.
+| Job | What | Builder | Needs | Proof |
+|---|---|---|---|---|
+| M0 | Charter and permission broker: the fence (ALLOWED, ASK, NEVER per lane and action), owner-signed, AXON cannot edit or widen it; decision log; a Permissions screen later | ChatGPT engine, AI Studio screen | tools done | tests that no path widens a permission; every action goes through the broker |
+| M1 | Loop skeleton: observe, understand, plan one step, act, check, remember; step budget; success test written first; stop reasons; JOURNAL of every step; fake tools only | ChatGPT | M0, B04A | scripted tasks with fake tools; budget and approval gates tested; journal complete |
+| M2 | Memory stores and standing files; corrections become regression tests and ledger lines; export, erase, undo | ChatGPT + AI Studio screen | M1 | a correction given once changes the next answer and is a test that fails if it regresses |
+| M3 | Truth gates (nine) and tool certification: known-answer self-tests per tool, known-bad registry that lists past answers touched | ChatGPT | M2 | gate corpus of true, false, stale, copied and contradictory claims; mutation tests |
+| M4 | Council: independent deterministic reviewers, Chair, veto, disagreement shown | ChatGPT | M3, B06B | reviewer corpus; the Chair never overrides a veto |
+| M5 | Objective model (goal, success test, audience) and the Writer (Reading Comfort, human versus AI-tool readers, Tool Knowledge Packs, Dictation Cleaner) | ChatGPT, AI Studio | M4, B07 | readability measures; prompts for outside tools pass a checklist; dictation corpus with raw and cleaned text |
+| M6 | Lanes, tasks, priorities, schedule, parallel workers, preemption | ChatGPT | M5 | scheduler simulations, no starvation, preemption saves state |
+| M7 | Hands: tool bus (built-in, API, MCP over network, remote CLI), then AXON Web, then AXON App (screen read, accessibility, capture) with every permission visible | ChatGPT engines, Android native by the Director's steps, AI Studio screens | M6, M0 | each hand behind the broker, logged, measured on real phones |
+| M8 | Growth path and growth log, Style profiles (consent), Tool Knowledge Packs, scripture packs | ChatGPT | M7 | each turn of the path leaves measurable improvement or is rolled back |
+| M9 | AXON Code harness (loop, read, search, patch, test runner, sandbox, approvals, standing file, Coder slot), Security lane, Challenge Lab | ChatGPT, AI Studio | M8 | tasks solved against owner-written tests; scope file respected |
+Order with the stages: B3, then M0, M1 early, B04A, B04B, B04C, M2, M3, M4, B05, B06A, B06B, M5, B07, M6, M7, B08, M8, M9.

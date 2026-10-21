@@ -13,3 +13,4 @@ Nothing here is removed now. Every line is a CANDIDATE with evidence; before rem
 | src/capabilities/registerPlanned.ts and registerPlannedMedia.ts | register planned-only entries | check after the tools finish |
 | docs/prompts/* for finished jobs | prompt files of jobs already merged | candidate at the end |
 | duplicated or superseded tests | none identified yet | scan at the end |
+| tools/video-probe.html | one-time measurement tool for the video jobs | candidate once V1 results are recorded on the board |
